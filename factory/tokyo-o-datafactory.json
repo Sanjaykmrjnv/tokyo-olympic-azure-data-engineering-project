@@ -1,0 +1,9 @@
+{
+	"name": "tokyo-o-datafactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bac1f9d1-d1c0-494a-87fa-57095b818a3c",
+		"tenantId": "4a853e2c-1127-4b4e-a4a4-df4d9020c1fd"
+	}
+}
