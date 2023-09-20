@@ -1,0 +1,73 @@
+{
+    "sku": {
+        "name": "Standard_RAGRS",
+        "tier": "Standard"
+    },
+    "kind": "StorageV2",
+    "id": "/subscriptions/46325c2e-e937-43d9-a9cb-708614f07def/resourceGroups/tokyo_olympic/providers/Microsoft.Storage/storageAccounts/olympictokyodata",
+    "name": "olympictokyodata",
+    "type": "Microsoft.Storage/storageAccounts",
+    "location": "centralindia",
+    "tags": {},
+    "properties": {
+        "dnsEndpointType": "Standard",
+        "defaultToOAuthAuthentication": false,
+        "publicNetworkAccess": "Enabled",
+        "keyCreationTime": {
+            "key1": "2023-09-18T04:52:03.8900032Z",
+            "key2": "2023-09-18T04:52:03.8900032Z"
+        },
+        "allowCrossTenantReplication": false,
+        "privateEndpointConnections": [],
+        "isSftpEnabled": false,
+        "minimumTlsVersion": "TLS1_2",
+        "allowBlobPublicAccess": false,
+        "allowSharedKeyAccess": true,
+        "isHnsEnabled": true,
+        "networkAcls": {
+            "bypass": "AzureServices",
+            "virtualNetworkRules": [],
+            "ipRules": [],
+            "defaultAction": "Allow"
+        },
+        "supportsHttpsTrafficOnly": true,
+        "encryption": {
+            "requireInfrastructureEncryption": false,
+            "services": {
+                "file": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-09-18T04:52:03.8900032Z"
+                },
+                "blob": {
+                    "keyType": "Account",
+                    "enabled": true,
+                    "lastEnabledTime": "2023-09-18T04:52:03.8900032Z"
+                }
+            },
+            "keySource": "Microsoft.Storage"
+        },
+        "accessTier": "Hot",
+        "provisioningState": "Succeeded",
+        "creationTime": "2023-09-18T04:52:03.8431275Z",
+        "primaryEndpoints": {
+            "dfs": "https://olympictokyodata.dfs.core.windows.net/",
+            "web": "https://olympictokyodata.z29.web.core.windows.net/",
+            "blob": "https://olympictokyodata.blob.core.windows.net/",
+            "queue": "https://olympictokyodata.queue.core.windows.net/",
+            "table": "https://olympictokyodata.table.core.windows.net/",
+            "file": "https://olympictokyodata.file.core.windows.net/"
+        },
+        "primaryLocation": "centralindia",
+        "statusOfPrimary": "available",
+        "secondaryLocation": "southindia",
+        "statusOfSecondary": "available",
+        "secondaryEndpoints": {
+            "dfs": "https://olympictokyodata-secondary.dfs.core.windows.net/",
+            "web": "https://olympictokyodata-secondary.z29.web.core.windows.net/",
+            "blob": "https://olympictokyodata-secondary.blob.core.windows.net/",
+            "queue": "https://olympictokyodata-secondary.queue.core.windows.net/",
+            "table": "https://olympictokyodata-secondary.table.core.windows.net/"
+        }
+    }
+}
