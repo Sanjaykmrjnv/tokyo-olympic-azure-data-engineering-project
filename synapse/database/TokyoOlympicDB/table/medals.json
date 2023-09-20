@@ -85,18 +85,6 @@
 						}
 					},
 					"DeltaFormatInvalidMessages": []
-				},
-				{
-					"Name": "Rank_by_Total",
-					"OriginDataTypeName": {
-						"TypeName": "integer",
-						"IsNullable": true,
-						"IsComplexType": false,
-						"Properties": {
-							"HIVE_TYPE_STRING": "integer"
-						}
-					},
-					"DeltaFormatInvalidMessages": []
 				}
 			],
 			"Format": {
