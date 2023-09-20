@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 1",
+	"properties": {
+		"content": {
+			"query": "-- Count the number of athletes for each country:\n\nSELECT Country, COUNT(*) AS Total_Athletes \nFROM athletes \nGROUP BY Country\nORDER BY Total_Athletes DESC;\n\n\n-- Country who never win any Gold medals:\n\nSELECT Team_Country, Gold, Total \nFROM medals\nWHERE Gold = 0;\n\n\n-- Calculate the average number of entries by gender for each discipline:\n\nSELECT Discipline, AVG(Female) AS Avg_Female, AVG(Male) AS Avg_Male\nFROM entriesgender\nGROUP By Discipline;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "TokyoOlympicDB",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
